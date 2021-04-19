@@ -19,7 +19,7 @@ var checklogin = function() {
 
 var IEVersion = Fizzmod.Utils.detectIE();
 if (IEVersion != 9 && IEVersion != 8)
-	checklogin();
+	//checklogin();
 
 var GTMEvent = window.location.pathname.split("/");
 if (GTMEvent.length) {
@@ -35,7 +35,7 @@ $(document).ready(function() {
 
 	$.ajax({
 		type: "GET",
-		url: "/api/checkout/pub/orders/?",
+		url: "https://cosonyb2cqa.myvtex.com/api/checkout/pub/orders/?",
 		data: {},
 		success: function(orders) {
 
