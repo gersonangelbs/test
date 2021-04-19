@@ -1,3 +1,4 @@
+alert('ingresó);
 import config from "./config";
 import * as global from "./global";
 
