@@ -32,6 +32,7 @@ var orders_data = {};
 $(document).ready(function() {
 
 	// checklogin();
+	console.log('Ingresóoooooo');
 
 	$.ajax({
 		type: "GET",
